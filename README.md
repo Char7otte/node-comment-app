@@ -1,7 +1,7 @@
 # node-comment-app
 A comment app I made following alongside colt steele's webdev course https://www.udemy.com/course/the-web-developer-bootcamp/ for future reference.
 
-## Packages used: 
+## NPM Packages used: 
 
 - [express](https://www.npmjs.com/package/express)
 - [ejs](https://www.npmjs.com/package/ejs)
@@ -11,5 +11,6 @@ A comment app I made following alongside colt steele's webdev course https://www
 ## Other tools used:
 
 - [Bulma](https://bulma.io/) - CSS Framework so it looks half decent
+- [Axios](https://github.com/axios/axios) - Makes fetch request code less ugly to look at
 - [Gemini](https://gemini.google.com/) - Generating a few mock comments for this sample.
 
