@@ -1,6 +1,8 @@
 # node-comment-app
 A simple comment app I made following alongside [colt steele's webdev course](https://www.udemy.com/course/the-web-developer-bootcamp/) for future reference.
 
+**Remember to install dependencies with `npm i`!**
+
 ## NPM Packages used: 
 
 - [express](https://www.npmjs.com/package/express)
