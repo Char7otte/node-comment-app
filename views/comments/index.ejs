@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <%- include("../partials/head")%>
+        <title>Comments</title>
+    </head>
+    <body>
+        <%- include("../partials/navbar")%>
+        <main>
+            <div class="container">
+                <div class="columns">
+                    <div class="column is-half is-offset-one-quarter">
+                        <h1 class="title">Comments</h1>
+                        <form action="/comments/new" class="mb-5">
+                            <div class="field"><button class="button is-primary">Make a new comment</button></div>
+                        </form>
+                        <div class="fixed-grid has-1-cols">
+                            <div class="grid">
+                                <%for (const c of comments) {%>
+                                <div class="cell"><%- include("../partials/comment", { id:c.id, username: c.username, comment: c.comment }) %></div>
+                                <%}%>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <%- include("../partials/footer.ejs")%>
+        <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+        <script type="module" src="/js/edit-comment.js"></script>
+        <script type="module" src="/js/delete-comment.js"></script>
+    </body>
+</html>

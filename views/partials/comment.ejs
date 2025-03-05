@@ -1,0 +1,12 @@
+<a href="comments/<%=id%>">
+    <div class="card">
+        <div class="card-content">
+            <p class="title is-4"><%=username%></p>
+            <p class="subtitle is-6"><%=comment%></p>
+        </div>
+        <div class="card-footer">
+            <a class="card-footer-item has-text-warning edit-comment" data-id="<%=id%>" data-content="<%=comment%>">Edit comment</a>
+            <a class="card-footer-item has-text-danger delete-comment" data-id="<%=id%>">Delete comment</a>
+        </div>
+    </div>
+</a>
