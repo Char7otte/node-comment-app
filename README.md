@@ -6,7 +6,8 @@ A simple comment app I made following alongside [colt steele's webdev course](ht
 - [express](https://www.npmjs.com/package/express)
 - [ejs](https://www.npmjs.com/package/ejs)
 - [json-format](https://www.npmjs.com/package/json-format) - Automatically formatting objects in readable JSON
-- [uuid](https://www.npmjs.com/package/uuid) - Generating unique universal IDs (primary keys, basically)
+- [uuid](https://www.npmjs.com/package/uuid) - Generating unique universal IDs
+- [method-override](https://www.npmjs.com/package/method-override) - Use unsupported HTTP verbs with html forms (forms only support GET and POST by default)
 
 ## Other tools used:
 
