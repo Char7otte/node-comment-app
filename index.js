@@ -82,7 +82,7 @@ app.delete("/comments/:id", (req, res) => {
     commentData.splice(index, 1);
     updateJSON();
 
-    res.json({ sucess: true, reload: true });
+    res.redirect("/comments");
 });
 
 app.get("*", (req, res) => {
