@@ -76,7 +76,7 @@ app.patch("/comments/:id", (req, res) => {
 app.delete("/comments/:id", (req, res) => {
     const { id } = req.params;
 
-    const index = commentData.findIndex((element) => (element.id = id));
+    const index = commentData.findIndex((element) => element.id == id);
     commentData.splice(index, 1);
     updateJSON();
 
