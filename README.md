@@ -16,7 +16,9 @@ A simple comment app I made following alongside [colt steele's webdev course](ht
 
 ## Features
 
-Listens on port 3000. \
+Accepts an argument for what port to listen to—default is 3000. \
+Any changes made will be saved to `comments.json`. \
+\
 **Remember to install dependencies with `npm i`!**
 
 | Request | URL | Path Parameters | Body Parameters
