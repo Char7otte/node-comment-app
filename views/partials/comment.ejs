@@ -6,7 +6,9 @@
         </div>
         <div class="card-footer">
             <a class="card-footer-item has-text-warning edit-comment" data-id="<%=id%>" data-content="<%=comment%>">Edit comment</a>
-            <a class="card-footer-item has-text-danger delete-comment" data-id="<%=id%>">Delete comment</a>
+            <form action="/comments/<%=id%>?_method=delete" class="card-footer-item" method="post">
+                <button class="has-text-danger">Delete comment</button>
+            </form>
         </div>
     </div>
 </a>
