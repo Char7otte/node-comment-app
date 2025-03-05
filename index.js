@@ -6,10 +6,12 @@ const fs = require("node:fs");
 const jsonFormat = require("json-format");
 const { v4: uuidv4 } = require("uuid");
 const port = process.argv[2] || 3000;
+const methodOverride = require("method-override");
 
 app.use(express.static(path.join(__dirname, "public")));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.use(methodOverride("_method"));
 
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
