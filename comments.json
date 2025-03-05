@@ -1,7 +1,27 @@
 [
 	{
-		"id": "33e33d35-e3aa-4eec-a125-a7a7e812522d",
-		"username": "qwerqwr",
-		"comment": "qwerqwer"
+		"id": "d81083ad-88aa-48b6-80e7-547ca9993e16",
+		"username": "StarrySkies88",
+		"comment": "That sunset photo is absolutely breathtaking!"
+	},
+	{
+		"id": "95e4faaa-3375-4119-8709-174872de2439",
+		"username": "Bookworm_22",
+		"comment": "Just finished this novel, and it's a must-read!"
+	},
+	{
+		"id": "62c755a2-122c-43c8-a432-e8c7aef1ef49",
+		"username": "TechGuru_01",
+		"comment": "This tutorial really helped me fix my computer issue."
+	},
+	{
+		"id": "168f6b7b-54cb-42a0-8824-3320c4a885f8",
+		"username": "FoodieAdventures",
+		"comment": "The pasta at this restaurant was incredible! Highly recommend."
+	},
+	{
+		"id": "fe1a086b-d5ba-4ab9-a916-1ee8090b8c38",
+		"username": "PixelArtist99",
+		"comment": "Enjoying seeing everyone's art in this community!"
 	}
 ]
