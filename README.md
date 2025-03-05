@@ -1,5 +1,5 @@
 # node-comment-app
-A comment app I made following alongside colt steele's webdev course https://www.udemy.com/course/the-web-developer-bootcamp/ for future reference.
+A simple comment app I made following alongside [colt steele's webdev course](https://www.udemy.com/course/the-web-developer-bootcamp/) for future reference.
 
 ## NPM Packages used: 
 
