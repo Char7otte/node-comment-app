@@ -28,6 +28,10 @@ app.get("/comments/new", (req, res) => {
 });
 app.post("/comments", (req, res) => {
     const { username, comment } = req.body;
+    if (!username || !comment) {
+        return;
+    }
+
     newCommentData = {
         id: uuidv4(),
         username: username,
